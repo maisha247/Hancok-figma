@@ -1,0 +1,353 @@
+/* all common css start  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+/* all common css end */
+
+/* header part start  */
+#headerPart{
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    padding: 35px 0;
+    font-family: "Oswald", sans-serif;
+}
+.logoMenu{
+    display: flex;
+    align-items: center;
+}
+.menu ul{
+    display: flex;
+}
+.menu ul li a{
+    color: #dddddd;
+    padding: 0 19px;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+.logo{
+    padding-right:35px ;
+}
+.menu ul li a:hover{
+    color: #ff4655;
+    transition: .4s;
+}
+.social a{
+    color: #dddddd;
+}
+.logo{
+    width: 15%;
+}
+.menu{
+    width: 55%;
+}
+.social{
+    width: 30%;
+    color: #ffffff;
+    text-align: right;
+}
+.social a{
+    padding: 0 13px;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.space{
+    padding-right: 25px;
+}
+.social a:hover{
+    color: #ff4655;
+    transition: .4s;
+}
+/* header part end  */
+
+/* banner part start  */
+#bannerPart{
+    width: 100%;
+    background: url(../images/banner\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 335px;
+    padding-bottom: 100px;
+    font-family: "Oswald", sans-serif;
+}
+.bannerText h3{
+    font-size: 27px;
+    font-weight: 400;
+    color: #FFFFFF;
+    
+
+}
+.bannerText h1{
+    font-size: 60px;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    position: relative;
+    display: inline-block;
+}
+.bannerText h1::after{
+    position: absolute;
+    height: 5px;
+    width: 90px;
+    background: #FFFFFF;
+    content: "";
+    right: -115px;
+    bottom: 18px;
+
+}
+.bannerText p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    width: 520px;
+    line-height: 24px;
+}
+.bannerText a{
+    padding: 20px 25px;
+    background: white;
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 50px;
+    border: 1px solid black;
+}
+.bannerText a:hover{
+    background: #ff4655;
+    color: white;
+    transition: .4s;
+}
+.icon a{
+    margin-top: 295px;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* about part start  */
+#aboutPart{
+    padding-top: 30px;
+    padding-bottom: 78px;
+    background: #121212;
+}
+.aboutHead h3{
+    font-size: 38px;
+    font-weight: 600;
+    color: #FFFFFF;
+    font-family: "Oswald", sans-serif;
+    width: 518px;
+    line-height: 56px;
+    position: relative;
+}
+.aboutHead h3::after{
+    position: absolute;
+    height: 3px;
+    width: 120px;
+    background: #FF4655;
+    content: "";
+    right: 205px;
+    bottom: 13px;
+}
+.aboutItemFlex{
+    display: flex;
+}
+.aboutImg{
+    margin-top: 50px;
+    margin-right:80px ;
+}
+
+.aboutText h3{
+    font-size: 27px;
+    font-weight: 600;
+    color: #FFFFFF;
+    font-family: "Oswald", sans-serif;
+    margin-top: 57px;
+}
+.aboutText p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-family: "Barlow Condensed", sans-serif;
+    line-height: 22px;
+    margin-top: 12px;
+}
+.aboutText i{
+    color: #FF4655;
+    padding-right: 30px;
+}
+.bold{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Oswald", sans-serif;
+    width: 467px;
+    color: #FFFFFF;
+}
+.aboutText{
+    height: 403px;
+}
+.aboutText a{
+    padding: 15px 20px;
+    background: #212121;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 28px;
+    border: 1px solid black;
+        font-family: "Oswald", sans-serif;
+}
+.btn i{
+    color: #FFFFFF;
+    margin-left: 5px;
+}
+.aboutText a:hover{
+    background: #ff4655;
+    color: white;
+    transition: .4s;
+}
+.achieveFlex{
+    display: flex;
+    
+    justify-content: space-between;
+}
+.achieveItem{
+    border-radius: 0 50px 0 50px;
+    padding: 35px 85px;
+    background: #212121;
+    margin-top: 55px;
+    margin-right: 10px;
+    width: 315px;
+    height: 170px;
+}
+.achieveItem h3{
+    font-size: 60px;
+    font-weight: 600;
+    font-family: "Barlow Condensed", sans-serif;
+    color: #FFFFFF;
+    position: relative;
+}
+.achieveItem p{
+    font-size: 18px;
+    font-weight: 200;
+      font-family: "Oswald", sans-serif;
+color: #FFFFFF;
+line-height: 27px;
+margin-top: 20px;
+}
+.achieveItem h3::after{
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    background: #FF4655;
+    content: "";
+    right: 12px;
+    bottom: 1px;
+    border-radius: 50%;
+}
+.achieveItem:hover{
+    box-shadow: 0px 0px 19px 6px rgba(255,70,85,0.75);
+-webkit-box-shadow: 0px 0px 19px 6px rgba(255,70,85,0.75);
+-moz-box-shadow: 0px 0px 19px 6px rgba(255,70,85,0.75);
+transition: .4s;
+}
+
+/* about part end  */
+
+/* game intro part start  */
+#gameIntro{
+    padding-top: 117px;
+    padding-bottom: 85px;
+    background: #191919;
+}
+.gameHead{
+    text-align: right;
+}
+.gameHead h3{
+    font-size: 38px;
+    font-weight: 600;
+    font-family: "Barlow Condensed", sans-serif;
+    color: #FFFFFF;
+    line-height: 46px;
+    position: relative;
+}
+.gameHead h3::before{
+    position: absolute;
+    height: 3px;
+    width: 120px;
+    background: #FF4655;
+    content: "";
+    right: 110px;
+    bottom: 9px;
+}
+.gameImgFlex{
+    display: flex;
+}
+.gameImg{
+    margin-top: -5px;
+}
+.one{
+    margin-top: 85px;
+}
+/* game intro part end  */
+
+/* header part start  */
+/* header part end  */
+
+/* header part start  */
+/* header part end  */
+
+/* header part start  */
+/* header part end  */
+
+/* header part start  */
+/* header part end  */
+
+/* header part start  */
+/* header part end  */
+
+/* header part start  */
+/* header part end  */
+
+/* header part start  */
+/* header part end  */
+
+/* header part start  */
+/* header part end  */
+
+/* header part start  */
+/* header part end  */
+
+/* header part start  */
+/* header part end  */
+
+/* header part start  */
+/* header part end  */
+
+/* header part start  */
+/* header part end  */
+
+/* header part start  */
+/* header part end  */
+
