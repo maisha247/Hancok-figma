@@ -256,23 +256,65 @@ color: #FFFFFF;
 line-height: 27px;
 margin-top: 20px;
 }
-.achieveItem h3::after{
-    position: absolute;
-    height: 10px;
-    width: 10px;
-    background: #FF4655;
-    content: "";
-    right: 12px;
-    bottom: 1px;
-    border-radius: 50%;
-}
+
 .achieveItem:hover{
     box-shadow: 0px 0px 19px 6px rgba(255,70,85,0.75);
 -webkit-box-shadow: 0px 0px 19px 6px rgba(255,70,85,0.75);
 -moz-box-shadow: 0px 0px 19px 6px rgba(255,70,85,0.75);
 transition: .4s;
 }
-
+.one{
+    position: relative;
+}
+.one::after{
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    background: #FF4655;
+    content: "";
+    right: 129px;
+    bottom: 87px;
+    border-radius: 50%;
+}
+.two{
+    position: relative;
+}
+.two::after{
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    background: #FF4655;
+    content: "";
+    right: 138px;
+    bottom: 87px;
+    border-radius: 50%;
+}
+.three{
+    position: relative;
+}
+.three::after{
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    background: #FF4655;
+    content: "";
+    right: 115px;
+    bottom: 87px;
+    border-radius: 50%;
+}
+.four{
+    position: relative;
+}
+.four::after{
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    background: #FF4655;
+    content: "";
+    right: 130px;
+    bottom: 87px;
+    border-radius: 50%;
+}
 /* about part end  */
 
 /* game intro part start  */
@@ -307,13 +349,52 @@ transition: .4s;
 .gameImg{
     margin-top: -5px;
 }
-.one{
-    margin-top: 85px;
+.oNe{
+    margin-top: 75px;
 }
 /* game intro part end  */
 
-/* header part start  */
-/* header part end  */
+/* stream part start  */
+#streamPart{
+    padding-top: 92px;
+    padding-bottom: 87px;
+    background: #121212;
+}
+.streamHead h3{
+    font-size: 38px;
+    font-weight: 600;
+    color: #FFFFFF;
+    font-family: "Oswald", sans-serif;
+    width: 446px;
+    line-height: 56px;
+    position: relative;
+}
+.streamHead h3::after{
+    position: absolute;
+    height: 3px;
+    width: 120px;
+    background: #FF4655;
+    content: "";
+    right: 190px;
+    bottom: 13px;
+}
+.streamImgFlex{
+    display: flex;
+    justify-content: space-between;
+}
+.streamImg{
+    margin-top: 83px;
+}
+.big{
+    margin-top: 70px;
+}
+.streamImg:hover{
+    box-shadow: 0px 0px 19px 6px rgba(255,70,85,0.75);
+-webkit-box-shadow: 0px 0px 19px 6px rgba(255,70,85,0.75);
+-moz-box-shadow: 0px 0px 19px 6px rgba(255,70,85,0.75);
+transition: .4s;
+}
+/* stream part end  */
 
 /* header part start  */
 /* header part end  */
