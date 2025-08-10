@@ -384,6 +384,7 @@ transition: .4s;
 }
 .streamImg{
     margin-top: 83px;
+    border: 1px solid white;
 }
 .big{
     margin-top: 70px;
@@ -394,10 +395,129 @@ transition: .4s;
 -moz-box-shadow: 0px 0px 19px 6px rgba(255,70,85,0.75);
 transition: .4s;
 }
+.preMatch{
+    padding-top: 61px;
+    text-align: center;
+}
+.preMatch h3{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "Barlow Condensed", sans-serif;
+    color: #FFFFFF;
+    letter-spacing: 2.5px;
+}
+.match{
+    padding-top: 52px;
+    display: flex;
+    justify-content: space-between;
+}
+.match h2{
+    font-size: 40px;
+    font-weight: 500;
+    font-family: "Oswald", sans-serif;
+    color: white;
+    margin-top: 34px;
+}
+.match h2:hover{
+    color: #ff4655;
+    transition: .4s;
+}
 /* stream part end  */
 
-/* header part start  */
-/* header part end  */
+/* top game part start  */
+#topGame{
+    padding-top: 88px;
+    padding-bottom: 112px;
+    background: #191919;
+}
+.topGameHead{
+    text-align: right;
+}
+.topGameHead h3{
+    font-size: 38px;
+    font-weight: 600;
+    font-family: "Barlow Condensed", sans-serif;
+    color: #FFFFFF;
+    padding-left: 868px;
+    line-height: 46px;
+    position: relative;
+    letter-spacing: 1.12px;
+}
+.topGameHead h3::before{
+    position: absolute;
+    height: 3px;
+    width: 120px;
+    background: #FF4655;
+    content: "";
+    right: 84px;
+    bottom: 9px;
+}
+.gameItemFlex{
+    display: flex;
+    justify-content: space-between;
+}
+.gameItem{
+    border: 1px solid #191919;
+    padding: 1px;
+}
+.gameItem:hover{
+    box-shadow: 0px 0px 19px 6px rgba(255,70,85,0.75);
+-webkit-box-shadow: 0px 0px 19px 6px rgba(255,70,85,0.75);
+-moz-box-shadow: 0px 0px 19px 6px rgba(255,70,85,0.75);
+transition: .4s;
+}
+
+.gameImg h3{
+    font-size: 22px;
+    font-weight: 600;
+    font-family: "Barlow Condensed", sans-serif;
+    color: #FFFFFF;
+    padding-top: 23px;
+}
+.gameImg p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Oswald", sans-serif;
+    color: #666666;
+    padding: 20px 0;
+}
+.priceTag{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+.priceTag p{
+    padding: 10px 5px;
+    background: #FF4655;
+    color: #FFFFFF;
+}
+.priceTag h6{
+    padding-top: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Oswald", sans-serif;
+    color: #666666;
+    line-height: 24px;
+    position: relative;
+}
+.priceTag h6::after{
+    position: absolute;
+    height: 2px;
+    width: 46px;
+    background: #666666;
+    content: "";
+    right: -3px;
+    bottom: 15px;
+}
+.priceTag h5{
+    padding-top: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Oswald", sans-serif;
+    color: #FFFFFF;
+    line-height: 24px;
+}
+/* top game part end  */
 
 /* header part start  */
 /* header part end  */
