@@ -575,6 +575,7 @@ transition: .4s;
     margin-top: 50px;
     border: 1px solid #FF4655;
     font-family: "Oswald", sans-serif;
+    margin-bottom: 100px;
 }
 .browseButton a:hover{
     border: 1px solid #121212;
@@ -597,6 +598,10 @@ transition: .4s;
 .imageFive{
     position: absolute;
     right: 70px;
+}
+.imageThree{
+    position: absolute;
+    right: 71px;
 }
 /* catalog part end  */
 
