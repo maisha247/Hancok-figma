@@ -590,23 +590,96 @@ transition: .4s;
 .imageOne{
     position: absolute;
     right: 350px;
+    margin-top: 25px;
 }
 .imageTwo{
     position: absolute;
     right: 300px;
+    top: 10px;
 }
 .imageFive{
     position: absolute;
-    right: 70px;
+    right: 155px;
 }
 .imageThree{
     position: absolute;
-    right: 71px;
+    right: 65px;
+    top: 10px;
+}
+.imageFour{
+    position: absolute;
+    right: 65px;
+}
+.catalogImg img:hover{
+    transform: scale(1.05);
+    transition: .4s;
 }
 /* catalog part end  */
 
-/* header part start  */
-/* header part end  */
+/* accesories part start  */
+#accesoriesPart{
+    background: #121212;
+    padding: 90px 0;
+}
+.accesoriesHead h3 {
+    font-size: 38px;
+    font-weight: 600;
+    font-family: "Barlow Condensed", sans-serif;
+    color: #FFFFFF;
+    line-height: 46px;
+    position: relative;
+    letter-spacing: 1.12px;
+    width: 446px;
+}
+.accesoriesHead h3::after{
+    position: absolute;
+    height: 3px;
+    width: 120px;
+    background: #FF4655;
+    content: "";
+    right: 147px;
+    bottom: 13px;
+}
+.accesoriesItemFlex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.accesoriesItem{
+    text-align: center;
+    background: #212121;
+    padding: 30px;
+}
+.accesoriesItemHead{
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: "Oswald", sans-serif;
+    line-height: 46px;
+}
+.accesoriesName{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: "Oswald", sans-serif;
+    color: #FFFFFF;
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+.accesoriesImage:hover{
+    transform: scale(1.05);
+    transition: .4s;
+}
+.addToCart a{
+    color: #FF4655;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Oswald", sans-serif;
+}
+.addToCart a:hover{
+    transform: scale(1.05);
+    transition: .4s;
+}
+/* accesories part end  */
 
 /* header part start  */
 /* header part end  */
