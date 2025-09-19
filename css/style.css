@@ -681,8 +681,34 @@ transition: .4s;
 }
 /* accesories part end  */
 
-/* header part start  */
-/* header part end  */
+/* eliteTeam part start  */
+#eliteTeamPart{
+    background: #191919;
+    padding: 100px 0;
+}
+.eliteTeamHead{
+    text-align: right;
+}
+.eliteTeamHead h3{
+    font-size: 38px;
+    font-weight: 600;
+    font-family: "Barlow Condensed", sans-serif;
+    color: #FFFFFF;
+    line-height: 46px;
+    position: relative;
+    letter-spacing: 1.12px;
+    padding-left: 868px;
+}
+.eliteTeamHead h3::before{
+    position: absolute;
+    height: 3px;
+    width: 120px;
+    background: #FF4655;
+    content: "";
+    right: 85px;
+    bottom: 9px;
+}
+/* eliteTeam part end  */
 
 /* header part start  */
 /* header part end  */
