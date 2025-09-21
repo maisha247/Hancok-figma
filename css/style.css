@@ -716,8 +716,31 @@ transition: .4s;
 
 /* eliteTeam part end  */
 
-/* header part start  */
-/* header part end  */
+/* FAQ part start  */
+#faqPart{
+    background: #121212;
+    padding: 100px 0;
+}
+.faqHead h3{
+    font-size: 38px;
+    font-weight: 600;
+    font-family: "Barlow Condensed", sans-serif;
+    color: #FFFFFF;
+    line-height: 46px;
+    position: relative;
+    letter-spacing: 1.12px;
+    padding-right: 868px;
+}
+.faqHead h3::after{
+    position: absolute;
+    height: 3px;
+    width: 120px;
+    background: #FF4655;
+    content: "";
+    left: 319px;
+    bottom: 8px;
+}
+/* FAQ part end  */
 
 /* header part start  */
 /* header part end  */
