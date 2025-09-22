@@ -740,6 +740,10 @@ transition: .4s;
     left: 319px;
     bottom: 8px;
 }
+.faqItemFlex{
+    display: flex;
+    justify-content: space-between;
+}
 /* FAQ part end  */
 
 /* header part start  */
