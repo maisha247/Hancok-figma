@@ -744,6 +744,11 @@ transition: .4s;
     display: flex;
     justify-content: space-between;
 }
+.faqLeft{
+    padding: 10px 12px;
+    background: #FF4655;
+    width: 100%;
+}
 /* FAQ part end  */
 
 /* header part start  */
