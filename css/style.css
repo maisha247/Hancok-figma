@@ -913,6 +913,10 @@ transition: .4s;
 .footerText a{
     color: #FF4655;
 }
+.footerText a:hover{
+    color: #666666;
+    transition: .4s;
+}
 /* footer part end  */
 
 /* header part start  */
